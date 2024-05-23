@@ -1,212 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Announcers</title>
+      <link rel="stylesheet" href="styles.css" />
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    />
-
-    <title>Announcers</title>
-  </head>
-  <body>
-    <header>
-      <div>
-        <div class="topNav">
-          <div class="topNav_texts">
-            <i class="fa-solid fa-location-dot"></i>
-            <p>143, Adeyemi Federal University Road, Ondo City, Ondo State.</p>
-          </div>
-          <div class="topNav_split">
-            <div class="topNav_texts">
-              <i class="fa-regular fa-envelope"></i>
-              <p>Company Email Address</p>
-            </div>
-            <div class="topNav_texts">
-              <i class="fa fa-phone-volume"></i>
-              <p>08162632635</p>
-            </div>
-          </div>
-        </div>
-
-        <nav>
-          <div class="blueNav hideMobileNav">
-            <a href="/">
-              <img src="/public/logo.png" alt="Easy Prints Logo" class="logo" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+   </head>
+   <body>
+      <!-- NAVbar SECTION -->
+      <div class="navigation">
+         <nav class="navbar">
+            <a href="/" class="navbar_logo">
+               <img src="public/logo-announce.png" alt="" />
             </a>
-            <div class="icon_burger">
-              <img src="/public/menu.png" alt="Menu" />
+
+            <div class="navbar_toggle" id="mobile-menu">
+               <span class="bar"></span>
+               <span class="bar"></span>
+               <span class="bar"></span>
             </div>
-            <ul class="ul">
-              <li>
-                <a href="/">Home</a>
-              </li>
-              <li>
-                <a href="/company.html" class="active">Company</a>
-              </li>
-              <li class="features">
-                <a href="#">Features <span class="arrow">▼</span></a>
-                <ul class="dropdown">
-                  <li><a href="#">Announce Me</a></li>
-                  <li><a href="#">ID Card Management</a></li>
-                  <li><a href="#">Event Ticket Sales</a></li>
-                  <li><a href="#">Promote Event/Business</a></li>
-                  <li><a href="#">Free Event Access Card</a></li>
-                  <li><a href="#">Sell Asoebi Or Uniform For Your Event</a></li>
-                </ul>
-              </li>
-              <li>
-                <a href="faq.html">FAQs</a>
-              </li>
-              <li>
-                <a href="contact.html">Contact</a>
-              </li>
-              <li>
-                <a href="login" class="loginBtn">Login</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+
+            <div class="navbar_menu">
+               <a href="" class="navbar_link">Home</a>
+               <a href="/company.html" class="navbar_link active">Company</a>
+               <div class="navbar_link dropdown">
+                  <a href="#" class="navbar_link"
+                     >Features <span class="arrow"> <img src="public/Vector (2).png" alt="" /></span
+                  ></a>
+                  <div class="dropdown_menu">
+                     <a href="#feature1" class="dropdown_item">Announce Me</a>
+                     <a href="#feature2" class="dropdown_item">ID Card Management</a>
+                     <a href="#feature3" class="dropdown_item">Event Ticket Sales</a>
+                     <a href="#feature4" class="dropdown_item">Promote Event/Business</a>
+                     <a href="#feature5" class="dropdown_item">Free Event Access Card</a>
+                     <a href="#feature5" class="dropdown_item">Sell Asoebi Or Uniform For Your Event</a>
+                  </div>
+               </div>
+               <a href="/faq.html" class="navbar_link">FAQs</a>
+               <a href="/contact.html" class="navbar_link">Contact</a>
+               <a href="/" class="navbar_link navbar_button">Login</a>
+            </div>
+         </nav>
       </div>
-    </header>
-    <main>
-      <section>
-        <div class="breadcrumb">
-          <h1>Company</h1>
-          <img src="public/right side.png" alt="" />
-        </div>
+
+      <section class="breadcrumb">
+         <div class="breadcrumb-left">
+            <h1>Company</h1>
+            <div class="back-to-home">
+               <a href="index.html"> <p>Home</p> </a>
+               <p>/ company</p>
+            </div>
+         </div>
+         <img src="public/company-bread.png" alt="" />
       </section>
 
       <section class="about_company">
-        <div class="company_head">
-          <h3>Company Over View</h3>
-          <h2>Let’s talk about company</h2>
-        </div>
+         <div class="company_head">
+            <h3>Company Over View</h3>
+            <h2>Let’s talk about company</h2>
+         </div>
 
-        <div class="companyOverview">
-          <div class="company_left">
-            <h2>We Have More Than 20+ Years Practical Experience</h2>
-            <p>
-              ANNOUNCE ME solution makes it easier for your audience to connect
-              with your services and products to discover more about what you
-              offer. It directs audience to the specific content that aligns
-              with your marketing and informational goals. Discover a universe
-              option with our landing page, you don’t need to worry about access
-              to your content, our servers will guarantee you a seamless
-              experience.
-            </p>
-            <a href="#" class="get_your_card">
-              <p>Contact Us Now</p>
-              <i class="fa-regular fa-circle-right" ;></i>
-            </a>
-          </div>
+         <div class="companyOverview">
+            <div class="company_left">
+               <h2>We Have More Than 20+ Years Practical Experience</h2>
+               <p>
+                  ANNOUNCE ME solution makes it easier for your audience to connect with your services and products to discover more about what you offer. It directs audience to the specific content
+                  that aligns with your marketing and informational goals. Discover a universe option with our landing page, you don’t need to worry about access to your content, our servers will
+                  guarantee you a seamless experience.
+               </p>
+               <a href="#" class="get_your_card">
+                  <p>Contact Us Now</p>
+                  <i class="fa-regular fa-circle-right" ;></i>
+               </a>
+            </div>
 
-          <div class="company_right">
-            <img src="public/MacBook Pro 16.png" alt="" class="macbook" />
-            <img src="public/Frame 2900.png" alt="" class="macbook_frame" />
-          </div>
-        </div>
+            <div class="company_right">
+               <img src="public/company-2.png" alt="" class="macbook" />
+            </div>
+         </div>
       </section>
 
       <section class="company_beforeFooter">
-        <div class="aim">
-          <img src="public/target 1.png" alt="" />
-          <div class="aim_content">
-            <h2>Our Mission</h2>
-            <p>
-              solution makes it easier for your audience to connect with your
-              services and products to discover more about what you offer.
-            </p>
-          </div>
-        </div>
-        <div class="aim">
-          <img src="public/target 3.png" alt="" />
-          <div class="aim_content">
-            <h2>Our Vision</h2>
-            <p>
-              It directs audience to the specific content that aligns with your
-              marketing and informational goals.
-            </p>
-          </div>
-        </div>
+         <div class="aim">
+            <img src="public/target 1.png" alt="" />
+            <div class="aim_content">
+               <h2>Our Mission</h2>
+               <p>solution makes it easier for your audience to connect with your services and products to discover more about what you offer.</p>
+            </div>
+         </div>
+         <div class="aim">
+            <img src="public/target 3.png" alt="" />
+            <div class="aim_content">
+               <h2>Our Vision</h2>
+               <p>It directs audience to the specific content that aligns with your marketing and informational goals.</p>
+            </div>
+         </div>
       </section>
 
       <footer class="footer">
-        <div class="footer_top">
-          <div class="footer_top_text">
-            <h1>Join Our mailing list.</h1>
-            <p>
-              Join our list of active users who subscribe to our newsletter and
-              be first to know when we post an update or an upgrade in the
-              system.
-            </p>
-          </div>
-          <button class="subscribe_button btn_btn">Subscribe</button>
-        </div>
-
-        <div class="divider_line"></div>
-
-        <div class="footer_mid">
-          <div class="footer_mid_box">
-            <h3>About Eazyprintz</h3>
-            <p>
-              Lorem mausi ipsum dolor sit, amet consectetur ersium lotti
-              adipisicing. Dorem officiis numquam provident assumenda, nobis
-              beatae.
-            </p>
-            <div class="social_media">
-              <a href=""><i class="fa-brands fa-instagram"></i></a>
-              <a href=""><i class="fa-brands fa-linkedin"></i></a>
-              <a href=""> <i class="fa-brands fa-facebook"></i></a>
-              <a href=""> <i class="fa-brands fa-twitter"></i></a>
+         <div class="footer_top">
+            <div class="footer_top_text">
+               <h1>Join Our mailing list.</h1>
+               <p>Join our list of active users who subscribe to our newsletter and be first to know when we post an update or an upgrade in the system.</p>
             </div>
-          </div>
-          <div class="footer_mid_right">
-            <div class="footer_mid_right_div">
-              <div class="footer_mid_right_links">
-                <h3>Quick Links</h3>
-                <a href="#"><p>Home</p></a>
-                <p>Company</p>
-                <p>FAQs</p>
-                <p>Contacts</p>
-              </div>
-              <div class="footer_mid_right_links">
-                <h3>Features</h3>
-                <a href="#"><p>ID Management</p></a>
-                <p>Event Management</p>
-                <p>Voting</p>
-                <p>Business Menus</p>
-              </div>
+            <div class="subscribe">
+               <input type="text" class="subscribe-input" placeholder="Enter your email" />
+               <button class="subscribe_button">Subscribe</button>
             </div>
-            <div class="footer_mid_right_div">
-              <div class="footer_mid_right_links">
-                <h3>Support</h3>
-                <a href="#"> <p>Terms and Condition</p></a>
+         </div>
 
-                <p>Privacy Policy</p>
-                <p>Help</p>
-                <p>Cookies Policy</p>
-              </div>
-              <div class="footer_mid_right_links">
-                <h3>Account</h3>
-                <a href="#"><p>Login</p></a>
-                <p>Sign Up</p>
-              </div>
+         <!-- <div class="divider_line"></div> -->
+
+         <div class="footer_mid">
+            <div class="footer_mid_box">
+               <img src="public/logo-announce.png" alt="" />
+               <!-- <h3>About Eazyprintz</h3> -->
+               <p>Lorem mausi ipsum dolor sit, amet consectetur ersium lotti adipisicing. Dorem officiis numquam provident assumenda, nobis beatae.</p>
+               <div class="social_media">
+                  <a href=""><i class="fa-brands fa-instagram"></i></a>
+                  <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                  <a href=""> <i class="fa-brands fa-facebook"></i></a>
+                  <a href=""> <i class="fa-brands fa-twitter"></i></a>
+               </div>
             </div>
-          </div>
-        </div>
+            <div class="footer_mid_right">
+               <div class="footer_mid_right_div">
+                  <div class="footer_mid_right_links">
+                     <h3>Quick Links</h3>
+                     <a href="#"><p>Home</p></a>
+                     <p>Company</p>
+                     <p>FAQs</p>
+                     <p>Contacts</p>
+                  </div>
+                  <div class="footer_mid_right_links">
+                     <h3>Features</h3>
+                     <a href="#"><p>ID Management</p></a>
+                     <p>Event Management</p>
+                     <p>Voting</p>
+                     <p>Business Menus</p>
+                  </div>
+               </div>
+               <div class="footer_mid_right_div">
+                  <div class="footer_mid_right_links">
+                     <h3>Support</h3>
+                     <a href="#"> <p>Terms and Condition</p></a>
 
-        <div class="divider_line"></div>
+                     <p>Privacy Policy</p>
+                     <p>Help</p>
+                     <p>Cookies Policy</p>
+                  </div>
+                  <div class="footer_mid_right_links">
+                     <h3>Account</h3>
+                     <a href="#"><p>Login</p></a>
+                     <p>Sign Up</p>
+                  </div>
+               </div>
+            </div>
+         </div>
 
-        <div class="footer_bottom">
-          <p>© Copyright – Announcers 2024. All rights reserved.</p>
-        </div>
+         <div class="divider_line"></div>
+
+         <div class="footer_bottom">
+            <p>© Copyright – Announcers 2024. All rights reserved.</p>
+         </div>
       </footer>
-    </main>
-  </body>
-  <script type="module" src="nav.js"></script>
-  <script type="module" src="menu.js"></script>
+   </body>
+   <script type="module" src="header.js"></script>
+   <script type="module" src="Faqs.js"></script>
 </html>
