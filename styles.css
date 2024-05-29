@@ -1263,7 +1263,7 @@ body {
 /* Announce me page */
 
 .dropdown-inner {
-	padding-inline: calc((100vw - 1200px) / 5);
+	padding-inline: calc((100vw - 1200px) / 4);
 
 	.inner-one {
 		padding-top: 6rem;
@@ -1285,7 +1285,7 @@ body {
 	.inner-two {
 		display: flex;
 		align-items: start;
-		justify-content: center;
+		justify-content: space-between;
 		gap: 3rem;
 		margin-block: 2rem;
 
