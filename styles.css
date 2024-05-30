@@ -472,7 +472,7 @@ body {
 				align-items: start;
 
 				.active {
-					text-decoration: line-through;
+					color: #f80000;
 				}
 
 				a {
