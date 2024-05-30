@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Announcers</title>
 		<link rel="stylesheet" href="styles.css" />
+		<link rel="stylesheet" href="nav.css" />
 		<link rel="icon" type="image/x-icon" href="/public/apple-touch-icon.png" />
 
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
@@ -23,7 +24,7 @@
 					<span class="bar"></span>
 				</div>
 
-				<div class="navbar_menu">
+				<!-- <div class="navbar_menu">
 					<a href="/" class="navbar_link active">Home</a>
 					<a href="/company.html" class="navbar_link">Company</a>
 					<div class="navbar_link dropdown">
@@ -42,7 +43,71 @@
 					<a href="faq.html" class="navbar_link">FAQs</a>
 					<a href="contact.html" class="navbar_link">Contact</a>
 					<a href="https://easyprintz.greenmouseacademy.com.ng/" class="navbar_link navbar_button">Login</a>
-				</div>
+				</div> -->
+				<ul class="navbar_menu">
+					<li><a href="/" class="navbar_link active">Home</a></li>
+					<li><a href="company.html" class="navbar_link">Company</a></li>
+					<li class="dropDownBtn">
+						<div>
+							<div class="menu-click navbar_link link-arrow">
+								<a href="#" class="navbar_link"> Features</a>
+								<i class="fa-solid fa-chevron-up arrow" id=""></i>
+							</div>
+
+							<div class="sub-menu semi-hidden left" id="dropDownMenu">
+								<div>
+									<a href="announce.html">
+										<img src="/public/menu-1.png" alt="" />
+										<p>Announce Me</p>
+									</a>
+									<a href="management.html">
+										<img src="/public/menu-2.png" alt="" />
+										<p>ID Card Management</p>
+									</a>
+									<a href="ticket.html">
+										<img src="/public/menu-3.png" alt="" />
+										<p>Event Ticket Sales</p>
+									</a>
+									<a href="event.html">
+										<img src="/public/menu-4.png" alt="" />
+										<p>Promote Event/Business</p>
+									</a>
+									<a href="access.html">
+										<img src="/public/menu-5.png" alt="" />
+										<p>Free Event Access Card</p>
+									</a>
+								</div>
+								<div>
+									<a href="voting.html">
+										<img src="/public/menu-6.png" alt="" />
+										<p>Voting Management</p>
+									</a>
+									<a href="Business.html">
+										<img src="/public/menu-7.png" alt="" />
+										<p>Business Menus</p>
+									</a>
+									<a href="invoicing.html">
+										<img src="/public/menu-8.png" alt="" />
+										<p>Automated Invoicing</p>
+									</a>
+									<a href="certificate.html">
+										<img src="/public/menu-9.png" alt="" />
+										<p>Certificate Management</p>
+									</a>
+									<a href="asoebi.html">
+										<img src="/public/menu-10.png" alt="" />
+										<p>Sell Asoebi Or Uniform For Your Event</p>
+									</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li><a href="faq.html" class="navbar_link">FAQs</a></li>
+					<li><a href="contact.html" class="navbar_link">Contact</a></li>
+
+					<li><a href="https://easyprintz.greenmouseacademy.com.ng/agent/register" class="navbar_link">Become an Agent</a></li>
+					<li><a href="https://easyprintz.greenmouseacademy.com.ng/login" class="navbar_link navbar_button">Login</a></li>
+				</ul>
 			</nav>
 		</div>
 
@@ -105,6 +170,18 @@
 				seamless experience.
 			</p>
 			<button class="btn_btn announce-btn">Contact Us Now</button>
+		</section>
+
+		<section class="id-section voting-polls">
+			<img src="public/voting-polls.png" alt="" class="voting-polls-img" />
+			<div class="content">
+				<h1>Create Voting Polls</h1>
+				<p>
+					Empower your community with our intuitive voting poll platform. Easily create, customize, and share polls for any occasion. From gathering feedback to making important decisions, our
+					user-friendly interface ensures seamless engagement and accurate results. Start polling today and amplify your voice!
+				</p>
+				<a href="/">Learn More <img src="public/arrow-up-right.png" alt="" /></a>
+			</div>
 		</section>
 
 		<section class="faq_section">
@@ -226,4 +303,5 @@
 	</body>
 	<script type="module" src="header.js"></script>
 	<script type="module" src="Faqs.js"></script>
+	<script type="module" src="drops.js"></script>
 </html>

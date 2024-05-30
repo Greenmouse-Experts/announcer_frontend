@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Announcers</title>
 		<link rel="stylesheet" href="styles.css" />
+		<link rel="stylesheet" href="nav.css" />
 		<link rel="icon" type="image/x-icon" href="/public/apple-touch-icon.png" />
 
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
@@ -23,108 +24,72 @@
 					<span class="bar"></span>
 				</div>
 
-				<div class="navbar_menu">
-					<a href="" class="navbar_link">Home</a>
-					<a href="/company.html" class="navbar_link">Company</a>
-					<div class="navbar_link dropdown">
-						<a href="#" class="navbar_link active"
-							>Features <span class="arrow"> <img src="public/Vector (2).png" alt="" /></span
-						></a>
-						<div class="dropdown_menu">
-							<a href="/announce.html" class="dropdown_item">Announce Me</a>
-							<a href="management.html" class="dropdown_item">ID Card Management</a>
-							<a href="ticket.html" class="dropdown_item">Event Ticket Sales</a>
-							<a href="event.html" class="dropdown_item">Promote Event/Business</a>
-							<a href="access.html" class="dropdown_item">Free Event Access Card</a>
-							<a href="asoebi.html" class="dropdown_item">Sell Asoebi Or Uniform For Your Event</a>
+				<ul class="navbar_menu">
+					<li><a href="/" class="navbar_link active">Home</a></li>
+					<li><a href="company.html" class="navbar_link">Company</a></li>
+					<li class="dropDownBtn">
+						<div>
+							<div class="menu-click navbar_link link-arrow">
+								<a href="#" class="navbar_link"> Features</a>
+								<i class="fa-solid fa-chevron-up arrow" id=""></i>
+							</div>
+
+							<div class="sub-menu semi-hidden left" id="dropDownMenu">
+								<div>
+									<a href="announce.html">
+										<img src="/public/menu-1.png" alt="" />
+										<p>Announce Me</p>
+									</a>
+									<a href="management.html">
+										<img src="/public/menu-2.png" alt="" />
+										<p>ID Card Management</p>
+									</a>
+									<a href="ticket.html">
+										<img src="/public/menu-3.png" alt="" />
+										<p>Event Ticket Sales</p>
+									</a>
+									<a href="event.html">
+										<img src="/public/menu-4.png" alt="" />
+										<p>Promote Event/Business</p>
+									</a>
+									<a href="access.html">
+										<img src="/public/menu-5.png" alt="" />
+										<p>Free Event Access Card</p>
+									</a>
+								</div>
+								<div>
+									<a href="voting.html">
+										<img src="/public/menu-6.png" alt="" />
+										<p>Voting Management</p>
+									</a>
+									<a href="Business.html">
+										<img src="/public/menu-7.png" alt="" />
+										<p>Business Menus</p>
+									</a>
+									<a href="invoicing.html">
+										<img src="/public/menu-8.png" alt="" />
+										<p>Automated Invoicing</p>
+									</a>
+									<a href="certificate.html">
+										<img src="/public/menu-9.png" alt="" />
+										<p>Certificate Management</p>
+									</a>
+									<a href="asoebi.html">
+										<img src="/public/menu-10.png" alt="" />
+										<p>Sell Asoebi Or Uniform For Your Event</p>
+									</a>
+								</div>
+							</div>
 						</div>
-					</div>
-					<a href="faq.html" class="navbar_link">FAQs</a>
-					<a href="contact.html" class="navbar_link">Contact</a>
-					<a href="https://easyprintz.greenmouseacademy.com.ng/" class="navbar_link navbar_button">Login</a>
-				</div>
+					</li>
+					<li><a href="faq.html" class="navbar_link">FAQs</a></li>
+					<li><a href="contact.html" class="navbar_link">Contact</a></li>
+
+					<li><a href="https://easyprintz.greenmouseacademy.com.ng/agent/register" class="navbar_link">Become an Agent</a></li>
+					<li><a href="https://easyprintz.greenmouseacademy.com.ng/login" class="navbar_link navbar_button">Login</a></li>
+				</ul>
 			</nav>
 		</div>
-
-		<section class="breadcrumb">
-			<div class="breadcrumb-left dropdown-breadcrumb">
-				<h1>Automated Invoicing</h1>
-				<div class="back-to-home">
-					<a href="index.html"> <p>Home</p> </a>
-					<p>/ Automated Invoicing</p>
-				</div>
-			</div>
-			<!-- <img src="public/company-bread.png" alt="" /> -->
-		</section>
-
-		<main class="dropdown-inner">
-			<section class="inner-one">
-				<h1 style="max-width: 900px">Make Your Business and Brand Stand out with Digital Custom Invoices</h1>
-				<p>Take advantage of our beautiful Digital Invoice Templates features by personalizing your bills with your Logo and signature</p>
-			</section>
-
-			<section class="inner-two sales">
-				<div class="inner-two-left">
-					<img src="public/invoicing-img.png" alt="" />
-				</div>
-
-				<div class="inner-two-right">
-					<h2>INVOICE Box</h2>
-					<div class="inner-ul">
-						<ul>
-							<li>
-								<img src="public/check-circle (1).png" alt="" />
-								<p>Invoice</p>
-							</li>
-							<li>
-								<img src="public/check-circle (1).png" alt="" />
-								<p>Receipt</p>
-							</li>
-							<li>
-								<img src="public/check-circle (1).png" alt="" />
-								<p>Cash Receipt</p>
-							</li>
-							<li>
-								<img src="public/check-circle (1).png" alt="" />
-								<p>Quote</p>
-							</li>
-							<li>
-								<img src="public/check-circle (1).png" alt="" />
-								<p>Credit Memo</p>
-							</li>
-							<li>
-								<img src="public/check-circle (1).png" alt="" />
-								<p>Tax Invoice</p>
-							</li>
-						</ul>
-						<ul>
-							<li>
-								<img src="public/check-circle (1).png" alt="" />
-								<p>Purchase Order</p>
-							</li>
-							<li>
-								<img src="public/check-circle (1).png" alt="" />
-								<p>Sales Receipt</p>
-							</li>
-							<li>
-								<img src="public/check-circle (1).png" alt="" />
-								<p>Purchase Order</p>
-							</li>
-							<li>
-								<img src="public/check-circle (1).png" alt="" />
-								<p>Estimate</p>
-							</li>
-							<li>
-								<img src="public/check-circle (1).png" alt="" />
-								<p>Credit Note</p>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</section>
-
-
-		</main>
 
 		<footer class="footer">
 			<div class="footer_top">
@@ -156,7 +121,7 @@
 					<div class="footer_mid_right_div">
 						<div class="footer_mid_right_links">
 							<h3>Quick Links</h3>
-							<a href="/"><p>Home</p></a>
+							<a href="/" class="active"><p>Home</p></a>
 							<a href="company.html"><p>Company</p></a>
 							<a href="faq.html"><p>FAQs</p></a>
 							<a href="contact.html"><p>Contacts</p></a>
@@ -196,4 +161,5 @@
 	</body>
 	<script type="module" src="header.js"></script>
 	<script type="module" src="Faqs.js"></script>
+	<script type="module" src="drops.js"></script>
 </html>
