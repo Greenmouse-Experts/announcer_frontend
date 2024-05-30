@@ -510,7 +510,7 @@ body {
 	.footer_bottom {
 		display: flex;
 		align-items: center;
-		justify-content: end;
+		justify-content: center;
 		font-weight: 400;
 		color: #fff;
 		padding-bottom: 2rem;
