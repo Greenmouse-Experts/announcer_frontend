@@ -19,11 +19,6 @@ body {
 	overflow-x: hidden;
 }
 
-
-
-
-
-
 .btn_btn {
 	background-color: #0c058b;
 	color: #fff;
@@ -105,6 +100,10 @@ body {
 			/* flex-direction: column; */
 			display: flex;
 			margin-inline: 0rem;
+
+			.hp-img {
+				display: none;
+			}
 
 			img {
 				width: 100%;
