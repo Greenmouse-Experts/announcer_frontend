@@ -1,14 +1,326 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset='utf-8'>
-  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <title>Page Title</title>
-  <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-  <script src='main.js'></script>
-</head>
-<body>
-  
-</body>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Announcers</title>
+		<link rel="stylesheet" href="styles.css" />
+		<link rel="stylesheet" href="nav.css" />
+		<link rel="icon" type="image/x-icon" href="/public/apple-touch-icon.png" />
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+	</head>
+	<body>
+		<!-- NAVbar SECTION -->
+		<div class="navigation">
+			<nav class="navbar">
+				<a href="/" class="navbar_logo">
+					<img src="public/logo-announce.png" alt="" />
+				</a>
+
+				<div class="navbar_toggle" id="mobile-menu">
+					<span class="bar"></span>
+					<span class="bar"></span>
+					<span class="bar"></span>
+				</div>
+
+				<!-- <div class="navbar_menu">
+					<a href="/" class="navbar_link active">Home</a>
+					<a href="/company.html" class="navbar_link">Company</a>
+					<div class="navbar_link dropdown">
+						<a href="#" class="navbar_link"
+							>Features <span class="arrow"> <img src="public/Vector (2).png" alt="" /></span
+						></a>
+						<div class="dropdown_menu">
+							<a href="/announce.html" class="dropdown_item">Announce Me</a>
+							<a href="management.html" class="dropdown_item">ID Card Management</a>
+							<a href="ticket.html" class="dropdown_item">Event Ticket Sales</a>
+							<a href="event.html" class="dropdown_item">Promote Event/Business</a>
+							<a href="access.html" class="dropdown_item">Free Event Access Card</a>
+							<a href="asoebi.html" class="dropdown_item">Sell Asoebi Or Uniform For Your Event</a>
+						</div>
+					</div>
+					<a href="faq.html" class="navbar_link">FAQs</a>
+					<a href="contact.html" class="navbar_link">Contact</a>
+					<a href="https://easyprintz.greenmouseacademy.com.ng/" class="navbar_link navbar_button">Login</a>
+				</div> -->
+
+				<ul class="navbar_menu">
+					<li><a href="/" class="navbar_link ">Home</a></li>
+					<li><a href="company.html" class="navbar_link">Company</a></li>
+					<li><a href="pricing.html" class="navbar_link active">Pricing</a></li>
+					<li class="dropDownBtn">
+						<div>
+							<div class="menu-click navbar_link link-arrow">
+								<p href="#" class="navbar_link">Features</p>
+								<i class="fa-solid fa-chevron-up arrow" id=""></i>
+							</div>
+
+							<div class="sub-menu semi-hidden left" id="dropDownMenu">
+								<div>
+									<a href="announce.html">
+										<img src="/public/menu-1.png" alt="" />
+										<p>Announce Me</p>
+									</a>
+									<a href="management.html">
+										<img src="/public/menu-2.png" alt="" />
+										<p>ID Card Management</p>
+									</a>
+									<a href="ticket.html">
+										<img src="/public/menu-3.png" alt="" />
+										<p>Event Ticket Sales</p>
+									</a>
+									<a href="event.html">
+										<img src="/public/menu-4.png" alt="" />
+										<p>Promote Event/Business</p>
+									</a>
+									<a href="access.html">
+										<img src="/public/menu-5.png" alt="" />
+										<p>Free Event Access Card</p>
+									</a>
+								</div>
+								<div>
+									<a href="voting.html">
+										<img src="/public/menu-6.png" alt="" />
+										<p>Voting Management</p>
+									</a>
+									<a href="Business.html">
+										<img src="/public/menu-7.png" alt="" />
+										<p>Business Menus</p>
+									</a>
+									<a href="invoicing.html">
+										<img src="/public/menu-8.png" alt="" />
+										<p>Automated Invoicing</p>
+									</a>
+									<a href="certificate.html">
+										<img src="/public/menu-9.png" alt="" />
+										<p>Certificate Management</p>
+									</a>
+									<a href="asoebi.html">
+										<img src="/public/menu-10.png" alt="" />
+										<p>Sell Asoebi Or Uniform For Your Event</p>
+									</a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li><a href="faq.html" class="navbar_link">FAQs</a></li>
+					<li><a href="contact.html" class="navbar_link">Contact</a></li>
+
+					<li><a href="agent.html" class="navbar_link">Become an Agent</a></li>
+					<li><a href="https://easyprintz.greenmouseacademy.com.ng/login" class="navbar_link navbar_button">Get Started</a></li>
+				</ul>
+			</nav>
+		</div>
+
+		<section class="breadcrumb">
+			<div class="breadcrumb-left dropdown-breadcrumb">
+				<h1>Pricing</h1>
+				<div class="back-to-home">
+					<a href="index.html"> <p>Home</p> </a>
+					<p>/ Pricing</p>
+				</div>
+			</div>
+			<!-- <img src="public/company-bread.png" alt="" /> -->
+		</section>
+		<main class="dropdown-inner">
+			<section class="inner-one">
+				<h1 style="max-width: 900px">Plans for everybody</h1>
+				<p>We provide a very simple and transparent pricing model</p>
+			</section>
+		</main>
+
+		<div class="table-container">
+			<table>
+				<thead>
+					<tr>
+						<th>Compare Services</th>
+						<th>Enterprise</th>
+						<th>Our Charges</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Digital ID Card generation with Unique QR Code</td>
+						<td></td>
+						<td>N 200</td>
+					</tr>
+					<tr>
+						<td>Digital Certificate generation With Unique QR Code</td>
+						<td></td>
+						<td>N 500</td>
+					</tr>
+					<tr>
+						<td>Digital Invoice for Businesses and Services generation with Unique QR Code</td>
+						<td></td>
+						<td>N 50</td>
+					</tr>
+					<tr>
+						<td>Event Access Customized Cards generation with Unique QR Code</td>
+						<td>Unlimited Cards Per Event</td>
+						<td>N 5000</td>
+					</tr>
+					<tr>
+						<td>Paid Event Ticket Sales</td>
+						<td>Per Ticket Sold</td>
+						<td>N 200</td>
+					</tr>
+					<tr>
+						<td>Menu Ticket Sales</td>
+						<td>Per Ticket Sold</td>
+						<td>N 200</td>
+					</tr>
+					<tr>
+						<td>Business Menu List Access with Unique QR Code for Marketing</td>
+						<td>4 Months Subscription</td>
+						<td>N 10,000</td>
+					</tr>
+					<tr>
+						<td>Business Menu List Access with Unique QR Code for Marketing</td>
+						<td>6 Months Subscription</td>
+						<td>N 15,000</td>
+					</tr>
+					<tr>
+						<td>Business Menu List Access with Unique QR Code for Marketing</td>
+						<td>12 Months Subscription</td>
+						<td>N 24,000</td>
+					</tr>
+					<tr>
+						<td>Online Election Voting Set Up and Process</td>
+						<td></td>
+						<td>N 10,000</td>
+					</tr>
+					<tr>
+						<td>Voting Contest</td>
+						<td></td>
+						<td>15% of the voting fee</td>
+					</tr>
+					<tr>
+						<td>Event Promotion On Announcers’’ Event page</td>
+						<td>1 Month</td>
+						<td>N 10,000</td>
+					</tr>
+					<tr>
+						<td>Event Promotion On Announcers’’ Event page</td>
+						<td>2 Month</td>
+						<td>N 15,000</td>
+					</tr>
+					<tr>
+						<td>Event Promotion On Announcers’’ Event page</td>
+						<td>3 Month</td>
+						<td>N 20,000</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+
+
+
+		<section class="id-section voting-polls">
+			<img src="public/agent-img-sec.png" alt="" class="voting-polls-img" />
+			<div class="content">
+				<h1>Safety Tips</h1>
+				<div class="check-circle-agent">
+					<img src="/public/check-circle (1).png" alt="" />
+					<p>
+						All Events, Business and Services announced on this platform are Local, so it can be easily verified.
+					</p>
+				</div>
+				<div class="check-circle-agent">
+					<img src="/public/check-circle (1).png" alt="" />
+					<p>
+						All Events, Business and Services announced on this platform are Local, so it can be easily verified.
+					</p>
+				</div>
+				<div class="check-circle-agent">
+					<img src="/public/check-circle (1).png" alt="" />
+					<p>
+						Avoid any Event, Business or Service deal that appears questionable in nature especially that has no traceable address or that offers unrealistic attractions for a low price or free
+					</p>
+				</div>
+				<div class="check-circle-agent">
+					<img src="/public/check-circle (1).png" alt="" />
+					<p>
+						Double check Event venue, Business and Service advert before signing up for it.
+					</p>
+				</div>
+			
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="footer_top">
+				<div class="footer_top_text">
+					<h1>Join Our mailing list.</h1>
+					<p>Join our list of active users who subscribe to our newsletter and be first to know when we post an update or an upgrade in the system.</p>
+				</div>
+				<div class="subscribe">
+					<input type="text" class="subscribe-input" placeholder="Enter your email" />
+					<button class="subscribe_button">Subscribe</button>
+				</div>
+			</div>
+
+			<!-- <div class="divider_line"></div> -->
+
+			<div class="footer_mid">
+				<div class="footer_mid_box">
+					<img src="public/logo-announce.png" alt="" />
+					<!-- <h3>About Eazyprintz</h3> -->
+					<p>The best digital solutions to all kinds of publicity with speed, accuracy and best quality service delivery....</p>
+					<div class="social_media">
+						<a href=""><i class="fa-brands fa-instagram"></i></a>
+						<a href=""><i class="fa-brands fa-linkedin"></i></a>
+						<a href=""> <i class="fa-brands fa-facebook"></i></a>
+						<a href=""> <i class="fa-brands fa-twitter"></i></a>
+					</div>
+				</div>
+				<div class="footer_mid_right">
+					<div class="footer_mid_right_div">
+						<div class="footer_mid_right_links">
+							<h3>Quick Links</h3>
+							<a href="index.html"><p>Home</p></a>
+							<a href="company.html"><p>Company</p></a>
+							<a href="faq.html"><p>FAQs</p></a>
+							<a href="pricing.html" class="active"><p>Pricing</p></a>
+							<a href="contact.html"><p>Contacts</p></a>
+						</div>
+						<div class="footer_mid_right_links">
+							<h3>Features</h3>
+							<a href="management.html"><p>ID Management</p></a>
+							<a href="announce.html"><p>Announce Me</p></a>
+							<a href="ticket.html"><p>Event Ticket Sales</p></a>
+							<a href="voting.html"><p>Voting Management</p></a>
+							<a href="Business.html"><p>Business Menus</p></a>
+						</div>
+					</div>
+					<div class="footer_mid_right_div">
+						<div class="footer_mid_right_links">
+							<h3>Features</h3>
+							<a href="asoebi.html"> <p>Uniform for Event</p></a>
+							<a href="invoicing.html"> <p>Automated Invoicing</p></a>
+							<a href="access.html"> <p>Free Event Access Card</p></a>
+							<a href="event.html"> <p>Promote Event/Business</p></a>
+							<a href="certificate.html"> <p>Certificate Management</p></a>
+						</div>
+						<div class="footer_mid_right_links">
+							<h3>Support</h3>
+							<a href="privacy.html"> <p>Privacy Policy</p></a>
+							<a href="cookies.html"> <p>Cookies Policy</p></a>
+							<a href="terms.html"> <p>Terms and Conditions</p></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="divider_line"></div>
+
+			<div class="footer_bottom">
+				<p>© Copyright – Announcers 2024. All rights reserved.</p>
+			</div>
+		</footer>
+	</body>
+	<script type="module" src="header.js"></script>
+	<script type="module" src="Faqs.js"></script>
+	<script type="module" src="drops.js"></script>
 </html>
