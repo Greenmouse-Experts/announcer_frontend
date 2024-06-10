@@ -1456,7 +1456,7 @@ table td:nth-child(3) {
 	padding-inline: calc((100vw - 1200px) / 4);
 	/* padding-inline: 12rem; */
 	margin-bottom: 6rem;
-	display: grid;
+	/* display: grid; */
 	/* border: 2px solid red; */
 	justify-items: center;
 
