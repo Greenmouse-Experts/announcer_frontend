@@ -1453,6 +1453,8 @@ table td:nth-child(3) {
 }
 
 .events-container {
+	overflow-x: hidden;
+
 	padding-inline: calc((100vw - 1200px) / 4);
 	/* padding-inline: 12rem; */
 	margin-bottom: 6rem;
@@ -1537,7 +1539,7 @@ table td:nth-child(3) {
 		grid-template-columns: 1fr;
 		grid-template-rows: repeat(6, 1fr);
 		grid-column-gap: 2rem;
-		grid-row-gap: 5rem;
+		grid-row-gap: 3rem;
 		background-color: #fcfcfc;
 
 		.event-box {
