@@ -1146,6 +1146,45 @@ body {
 	}
 }
 
+.promote-event-one {
+	h1 {
+		font-size: 2rem;
+		font-weight: 600;
+	}
+
+	.promote-event-text {
+		font-size: 16px;
+		font-weight: 400;
+		padding-block: 1rem;
+		line-height: 30px;
+	}
+}
+
+.promote-two {
+	flex-direction: row-reverse;
+	h1 {
+		font-size: 2rem;
+		font-weight: 600;
+		line-height: 45px;
+	}
+
+	li {
+		p {
+			line-height: 30px;
+		}
+	}
+
+	.promote-three {
+		width: 80%;
+	}
+}
+
+.promote-three-right {
+	img {
+		width: 100%;
+	}
+}
+
 @media (max-width: 1024px) {
 	.dropdown-inner {
 		padding-inline: 1rem;
