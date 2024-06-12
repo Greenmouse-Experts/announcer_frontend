@@ -382,6 +382,7 @@ body {
 				border-radius: 20px;
 				border: 1px solid #ccc;
 				width: 500px;
+				max-width: 500px;
 				/* width: 100%; */
 				box-sizing: border-box;
 				padding-right: 100px;
@@ -546,6 +547,7 @@ body {
 			.subscribe {
 				.subscribe-input {
 					width: 100%;
+					min-width: 350px;
 				}
 			}
 		}
